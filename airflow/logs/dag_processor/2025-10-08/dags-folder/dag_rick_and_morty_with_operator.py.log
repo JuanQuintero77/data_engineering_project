@@ -1,0 +1,6 @@
+{"timestamp":"2025-10-08T00:18:53.605572","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_rick_and_morty_with_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-08T00:19:23.816722","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_rick_and_morty_with_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-08T00:19:54.195389","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_rick_and_morty_with_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-08T00:20:24.620710","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_rick_and_morty_with_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-08T00:20:55.166696","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_rick_and_morty_with_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-08T00:21:25.967126","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_rick_and_morty_with_operator.py","logger":"airflow.models.dagbag.DagBag"}

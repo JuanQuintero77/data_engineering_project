@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Entornos
+.env
+*.env
+.venv/
+venv/
+
+# Airflow / DB / dbt
+airflow/postgres-data/
+dbt/*/target/
+*.parquet
+*.db
+airflow/airflow.cfg
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+EOF
+
+#Credenciales
+keys

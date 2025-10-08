@@ -1,0 +1,40 @@
+name: 'dbt_data_engineering_project'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dbt_data_engineering_project'
+
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"  # archivos compilados
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  dbt_data_engineering_project:
+    vars:
+      project_name: "data-engineering-dev-464423"
+    bronze:
+      +schema: BRONZE
+      +materialized: view
+    silver:
+      +schema: SILVER
+      +materialized: table
+    gold:
+      +schema: GOLD
+      +materialized: view
+
+vars:
+  project_name: "data-engineering-dev-464423"
+  dataset_bronze: "BRONZE"
+  dataset_silver: "SILVER"
+  dataset_gold: "GOLD"
+  partition_column: "ingestion_date"
+  table_characters_bronze: "rick_and_morty_characters"
+  view_characters_bronze: "view_characters"
+  table_characters_silver: "Characters_Partitioned"
+

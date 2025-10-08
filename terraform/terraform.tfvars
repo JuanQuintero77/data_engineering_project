@@ -1,0 +1,5 @@
+project_id             = "data-engineering-dev-464423"
+region                 = "us-central1"
+function_name          = "process-rick-and-morty-characters" 
+function_entry_point   = "process_characters"
+source_code_path       = "./function_src"
