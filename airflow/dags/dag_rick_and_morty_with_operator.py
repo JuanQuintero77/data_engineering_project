@@ -92,9 +92,9 @@ with DAG(dag_id="dag_rick_and_morty_api",
     move_file_to_historic_folder = GCSToGCSOperator(
         task_id = 'move_file_to_historic_folder',
         source_bucket = bucket,
-        source_object = f"{folder_processed}/*.parquet",
+        source_object = f"{folder_processed}/rick_and_morty_characters.parquet",
         destination_bucket = bucket,
-        destination_object = f'{folder_historic}/rick_and_morty_characters_{{ ds_nodash }}.parquet',
+        destination_object = f"{folder_historic}/rick_and_morty_characters.parquet",
         move_object = True,
         gcp_conn_id='google_cloud_connection'
     )
